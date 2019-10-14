@@ -1,0 +1,333 @@
+.left {
+  position: absolute;
+  top: 0;
+}
+
+.right {
+  position: absolute;
+  top: 0;
+  right: 0;
+}
+
+.fixed-top {
+  z-index: 990 !important;
+}
+
+.product_divider {
+  height: 0px;
+  overflow: hidden;
+  border-top: 1px solid #d2d2d2;
+}
+
+@media screen and (min-width: 993px){
+  .nav-body {
+    height: 61px;
+    background-color: #d2d2d2;
+    padding: 0px 5px 0 20px!important;
+  }
+
+  .nav-style {
+    height: 60px;
+  }
+
+  .nav-position {
+    justify-content: center !important;
+  }
+
+  .w-logo {
+    width: 15%;
+  }
+
+  .nav-center {
+    width: 70%;
+    justify-content: center;
+  }
+
+  .nav-right {
+    width: 18%;
+    justify-content: flex-end;
+  }
+
+  .nav-center .nav-item {
+    padding: 3px 11px;
+  }
+
+  .nav-center .nav-item .active-line {
+    padding: 4px 0px;
+    border-bottom: 4px solid #d2d2d2;
+  }
+
+  .nav-right .nav-item {
+    padding: 1px 1px;
+  }
+
+  .nav-right .nav-item .active-line {
+    padding: 4px 0px;
+    border-bottom: 4px solid #d2d2d2;
+  }
+
+  .active .active-line {
+    border-bottom: 4px solid #f15a24 !important;
+  }
+
+  .active .active-line .nav-right-text {
+    color: #f15a24 !important;
+  }
+
+  .active .active-line .nav-center-text {
+    color: #f15a24 !important;
+  }
+
+  .product-bottom:hover > .active-line .dropdown-menu {
+    display: block;
+  }
+  
+  .dropdown-menu-custom-windows {
+    width: 800px;
+    background-color: rgba(248 ,248 ,248 ,0.9);
+    border-radius: 10px;
+    top: 60px;
+    right: auto;
+    left: 50%;
+    -webkit-transform: translate(-50%, 0);
+    -o-transform: translate(-50%, 0);
+    transform: translate(-50%, 0);
+  }
+
+  .dropdown-menu-custom-windows-lang {
+    width: 100px;
+    background-color: rgba(248 ,248 ,248 ,1);
+    border-radius: 0px;
+    top: 63px;
+    right: auto;
+    left: 93.7%;
+    -webkit-transform: translate(-50%, 0);
+    -o-transform: translate(-50%, 0);
+    transform: translate(-50%, 0);
+  }
+
+  .item-lang {
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+    width: 100%;
+    height: 50px;
+  }
+
+  .lang {
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 400;
+  }
+}
+
+@media screen and (max-width: 992px){
+
+  .nav-body {
+    background-color: #d2d2d2;
+  }
+
+  .navbar {
+    padding: 0 !important;
+  }
+
+  .navbar .navbar-brand {
+    padding: 15px 0px 15px 20px;
+  }
+
+  .navbar .nav-link {
+    padding: 20px 0 20px 20px !important;
+  }
+
+  .navbar-collapse {
+    background-color: #726868;
+  }
+
+  .dropdown-menu-custom-windows {
+
+    width: 100%;
+    opacity: 1;
+    background-color: #726868;
+  }
+
+  .navbar .dropdown-menu {
+    position: static !important;
+    padding: .5rem 2rem;
+    border: none !important;
+  }
+
+  .dropdown-menu-custom-windows-lang {
+    width: 100%;
+    opacity: 1;
+    background-color: #726868;
+  }
+}
+
+
+@media screen and (min-width: 1130px) {
+  .nav-center-text {
+    font-size: 18px;
+    color: #4d4d4d !important;
+    font-family: 'GothamBook','Helvetica','Arial',sans-serif;
+    letter-spacing: 0.05rem;
+    word-spacing: -0.1rem;
+  }
+
+  .nav-center-text:hover{
+    font-size: 18px;
+    color: #f15a24 !important;
+    font-family: 'GothamBook','Helvetica','Arial',sans-serif;
+    letter-spacing: 0.05rem;
+  }
+
+  .nav-center-text:active{
+    font-size: 18px;
+    color: #f15a24 !important;
+    font-family: 'GothamBook','Helvetica','Arial',sans-serif;
+    letter-spacing: 0.05rem;
+  }
+
+  .nav-right-text {
+    font-size: 18px;
+    color: #4d4d4d !important;
+    font-family: 'GothamBook','Helvetica','Arial',sans-serif;
+  }
+
+  .nav-right-text:hover{
+    font-size: 18px;
+    color: #f15a24 !important;
+    font-family: 'GothamBook','Helvetica','Arial',sans-serif;
+  }
+
+  .nav-right-text:active{
+    font-size: 18px;
+    color: #f15a24 !important;
+    font-family: 'GothamBook','Helvetica','Arial',sans-serif;
+  }
+}
+
+
+@media screen and (max-width: 1129px) and (min-width: 993px) {
+  .nav-center-text {
+    font-size: 15px;
+    color: #4d4d4d !important;
+    font-family: 'GothamBook','Helvetica','Arial',sans-serif;
+    letter-spacing: 0.02rem;
+    word-spacing: -0.1rem;
+  }
+
+  .nav-center-text:hover{
+    font-size: 15px;
+    color: #f15a24 !important;
+    font-family: 'GothamBook','Helvetica','Arial',sans-serif;
+    letter-spacing: 0.02rem;
+  }
+
+  .nav-right-text {
+    font-size: 15px;
+    color: #4d4d4d !important;
+    font-family: 'GothamBook','Helvetica','Arial',sans-serif;
+  }
+
+  .nav-right-text:hover{
+    font-size: 15px;
+    color: #f15a24 !important;
+    font-family: 'GothamBook','Helvetica','Arial',sans-serif;
+  }
+}
+
+@media screen and (max-width: 992px) {
+  .nav-center-text {
+    font-size: 14px;
+    color: #FFF !important;
+    font-weight: 400;
+    font-family: 'GothamBook','Helvetica','Arial',sans-serif;
+    letter-spacing: 0.05rem;
+  }
+
+  .nav-right-text {
+    font-size: 14px;
+    color: #FFF !important;
+    font-family: 'GothamBook','Helvetica','Arial',sans-serif;
+    font-weight: 400;
+    letter-spacing: 0.05rem;
+  }
+
+  .logout-text {
+    color: rgb(215, 215, 215);
+    display: inline-block;
+    font-size: 13px;
+  }
+
+  .custom-divider {
+    height: 0;
+    overflow: hidden;
+    border-top: 1px solid #e9ecef;
+  }
+}
+
+
+
+
+
+@media print {
+  .nav-body {
+    background-color: #d2d2d2;
+    padding: 10px 20px !important;
+  }
+
+  .nav-style {
+    height: 60px;
+  }
+
+  .nav-position {
+    justify-content: center !important;
+  }
+
+  .nav-center {
+    justify-content: center;
+  }
+
+  .nav-center .nav-item {
+    margin: 0 15px;
+  }
+
+  .dropdown-menu-custom-windows {
+    width: 800px;
+    background-color: rgba(248 ,248 ,248 ,0.9);
+  }
+
+  .dropdown-menu-position-center {
+    top: 60px;
+    right: auto;
+    left: 50%;
+    -webkit-transform: translate(-50%, 0);
+    -o-transform: translate(-50%, 0);
+    transform: translate(-50%, 0);
+  }
+
+  .nav-center-text {
+    font-size: 15px;
+    color: #4d4d4d !important;
+    font-family: 'GothamBook','Helvetica','Arial',sans-serif;
+    letter-spacing: 0.02rem;
+  }
+
+  .nav-center-text:hover{
+    font-size: 15px;
+    color: #f15a24 !important;
+    font-family: 'GothamBook','Helvetica','Arial',sans-serif;
+    letter-spacing: 0.02rem;
+  }
+
+  .nav-right-text {
+    font-size: 15px;
+    color: #4d4d4d !important;
+    font-family: 'GothamBook','Helvetica','Arial',sans-serif;
+  }
+
+  .nav-right-text:hover{
+    font-size: 15px;
+    color: #f15a24 !important;
+    font-family: 'GothamBook','Helvetica','Arial',sans-serif;
+  }
+}

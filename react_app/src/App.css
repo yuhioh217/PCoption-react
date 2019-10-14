@@ -1,0 +1,16 @@
+.main {
+  box-sizing: border-box;
+}
+
+.rgb-block {
+  position: relative;
+  float: left;
+  width: 6.25%;
+  height: auto;
+}
+
+.rgb-block:after {
+  content: "";
+	display: block;
+	padding-top: 56.25%;
+}

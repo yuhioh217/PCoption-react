@@ -1,0 +1,6 @@
+{
+    "mongodb_ip": "127.0.0.1",
+    "mongodb_port": 27017,
+    "mongodb_db": "platypus",
+    "mongodb_collection": "test_collection"
+}
